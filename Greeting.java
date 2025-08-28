@@ -8,7 +8,9 @@ public class Greeting {
     Scanner scanner = new Scanner(System.in);
     String userInput = scanner.next();
 
-    System.out.println("User wrote: " + userInput);
+    for (int i = 0; i < 3; i++) {
+      System.out.println(userInput);
+    }
 
     scanner.close();
   }
